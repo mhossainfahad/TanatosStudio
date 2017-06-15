@@ -25,6 +25,10 @@ section {
     z-index: -1;
 }
 
+.one_one img {
+	padding-top: 8px;
+}
+
 .one_two p a {
 	color: #fff;
     font-size: 20px;
@@ -553,5 +557,9 @@ section {
     letter-spacing: 1px;
 }
 
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
 
+}
 
