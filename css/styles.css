@@ -1,9 +1,20 @@
+/*
+=> Project Name: Tanatos Studio
+=> Designed By: Symu.co
+=> Developed By: Mahmud Hossain
+=> GitHub: https://github.com/mhossainfahad
+=> Contact: mahmudhossain.fahad@gmail.com 
+*/
+
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 section {
     position: relative;
     z-index: 1;
 }
+
+/* slider_section */
 
 .slider_section {
     background-image: url(../img/slider_background.png);
@@ -109,12 +120,14 @@ section {
 	transform: translateY(50%);
 }
 
+/* work_section */
+
 .second_sec_first_row {
     padding: 100px 0;
 }
 
 .two_one img {
-	width: 60%;
+	width: 50%;
 }
 
 .two_one h4 {
@@ -129,6 +142,7 @@ section {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: #6C6963;
+    padding: 0px 0 15px 0;
 }
 
 .two_one {
@@ -140,6 +154,8 @@ section {
     opacity: 1;
     transform: scale(1.1);
 }
+
+/* subscribe_section */
 
 .subscribe_section {
     background-image: url(../img/tea.png);
@@ -183,6 +199,8 @@ section {
     border: 1px solid #ff944d;
 }
 
+/* testimonial_section */
+
 .testimonial_section {
     background-image: url(../img/face_main.png);
     background-position: center;
@@ -210,6 +228,37 @@ section {
 .five_three span i:hover {
     transform: translateX(15%);
 }
+
+.five_two p {
+    color: #DDDDDD;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    white-space: pre-line;
+    font-style: italic;
+    line-height: normal;
+    padding-top: 12px;
+}
+
+.five_two h4 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+} 
+
+.five_one span i {
+    font-size: 60px;
+    opacity: 0.6;
+    padding: 50px 0 0 0;
+}
+
+.five_three span i {
+    font-size: 60px;
+    opacity: 0.6;
+    padding: 50px 0 0 70px;
+}
+
+/* portfolio_section */
 
 .portfolio_section {
     padding: 50px 0;
@@ -346,34 +395,7 @@ section {
     color: white;    
 }
 
-.five_two p {
-    color: #DDDDDD;
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    white-space: pre-line;
-    font-style: italic;
-    line-height: normal;
-    padding-top: 12px;
-}
-
-.five_two h4 {
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-} 
-
-.five_one span i {
-    font-size: 60px;
-    opacity: 0.6;
-    padding: 50px 0 0 0;
-}
-
-.five_three span i {
-    font-size: 60px;
-    opacity: 0.6;
-    padding: 50px 0 0 70px;
-}
+/* team_section */
 
 .team_section {
 	padding: 50px 0;
@@ -480,6 +502,8 @@ section {
     background-color: #355EC9;
 }
 
+/* contact_section */
+
 .contact_section {
     background-image: url(../img/footer_background.png);
     background-position: center;
@@ -539,10 +563,11 @@ section {
     padding-right: 11px;
 }
 
+/* footer */
+
 .eighth_sec_first_row {
     padding: 20px 0 10px 0;
     background: #3B444D;
-
 }
 
 .eight_one p {
@@ -552,14 +577,18 @@ section {
 }
 
 .eight_one p span {
+	color: #F5600F;
+}
+
+.eight_one p a {
     color: #F5600F;
     font-weight: 700;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
-
 }
 
