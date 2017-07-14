@@ -51,6 +51,36 @@ section {
     font-size: 20px;
 }
 
+.first_sec_menu_row {
+    padding: 20px 0 15px 0;
+
+}
+
+.one_menu {
+	
+}
+
+.one_menu ul li {
+	
+}
+
+.one_menu ul li a {
+    padding: 10px;
+    background: #4D5158;
+	color: #fff;
+    font-weight: 800;
+    transition: all 0.5s;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.one_menu ul li a:hover {
+    color: #F7600E;
+    border-bottom: 3px solid #F7600E;
+    text-shadow: 0px 0px 10.9px #F7600E;
+}
+
 .white_space {
 	white-space: pre-line;
 }
@@ -72,7 +102,7 @@ section {
 }
 
 .one_three {
-	padding: 100px 0;
+	padding: 80px 0;
 }
 
 .hire_btn {
